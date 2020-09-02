@@ -1,0 +1,28 @@
+.loader-container {
+    width: 100%;
+    background-color: lightgray;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.loader-text {
+    color: deepskyblue;
+    font: 30px "Comic Sans MS";
+    margin-bottom: 30px;
+}
+
+.loader {
+    border: 16px solid darkgray;
+    border-top: 16px solid deepskyblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

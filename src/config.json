@@ -1,0 +1,11 @@
+{
+  "database" : {
+    "cn": "DATABASE=bttf;HOSTNAME=192.168.1.162;PORT=50001;PROTOCOL=TCPIP;UID=ic;PWD=icmaster",
+    "cnopts": { "connectTimeout" : 5, "systemNaming" : true}
+  },
+
+  "server": {
+    "hostname": "localhost",
+    "port": 3000
+  }
+}

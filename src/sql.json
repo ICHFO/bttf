@@ -1,0 +1,8 @@
+{
+  "query_overview": {
+    "type": "s",
+    "table": "BTTF.QUERIES",
+    "cols" : ["ID", "TEXT", "TS", "USERID"],
+    "filter" : ""
+  }
+}
