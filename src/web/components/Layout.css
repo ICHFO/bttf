@@ -102,24 +102,7 @@ select:hover, input:hover {
 
 #header {
     background-color: deepskyblue;
-    height: 50px;
-}
-
-.headernav {
-    list-style: none;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.header-link {
-    color: indigo;
-    margin-right: 1rem;
-    text-decoration: none;
-    font-size: larger;
-}
-
-.header-link:hover {
-    color: gray;
+    text-align: center;
 }
 
 .overview-container {
@@ -183,4 +166,19 @@ tr:nth-child(even) {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+.image-center-clip {
+    overflow: hidden;
+    align-content: center;
+}
+
+.crop {
+    max-width: 100%;
+    width: 15%;
+}
+
+main {
+    border: solid 5px deepskyblue;
+    border-radius: 10px;
 }

@@ -1,9 +1,13 @@
 import React from 'react'
-import HeaderNav from "./HeaderNav";
+import BttfLogo from '../images/bttf_logo.png'
 
 const Header = () => (
     <div id="header">
-        <HeaderNav />
+        <div className="image-center-clip">
+            <img src={BttfLogo}
+                 className="crop"
+            />
+        </div>
     </div>
 )
 
