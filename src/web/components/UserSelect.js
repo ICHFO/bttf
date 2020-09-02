@@ -1,5 +1,9 @@
 import React, {useState, useEffect} from 'react'
 import fetch from "node-fetch";
+import cfg from "../../config.json"
+
+const hostname = cfg.server.hostname
+const port = cfg.server.port
 
 const UserSelect = () => {
 
@@ -9,7 +13,7 @@ const UserSelect = () => {
     const [user, setUser] = useState('')
 
     useEffect(() => {
-        fetch('http://localhost:3000/userIds')
+        fetch(`http://${hostname}:${port}/userIds`)
             .then(response => response.json())
             .then(result => {
                 setUsers(result)
